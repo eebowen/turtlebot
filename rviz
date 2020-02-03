@@ -1,0 +1,10 @@
+#!/bin/bash
+gnome-terminal --tab --title="step 1 roscore" -e "bash -c \"roscore; exec bash\"";
+sleep 3
+gnome-terminal --tab --title="step 2 minimal" -e "bash -c \"roslaunch turtlebot_bringup minimal.launch; exec bash\"";
+sleep 4;
+#gnome-terminal --tab --title="step 3 dashboard" -e "bash -c \"roslaunch turtlebot_dashboard turtlebot_dashboard.launch; exec bash\"" ;
+#sleep 3;
+gnome-terminal --tab --title="step 4 astra_pro" -e "bash -c \"roslaunch astra_launch astra_pro.launch; exec bash\"";
+sleep 4;
+gnome-terminal --tab --title="step 5 image_view" -e "bash -c \"roslaunch turtlebot_rviz_launchers view_robot.launch; exec bash\"";

@@ -1,0 +1,4 @@
+#!/bin/bash
+roslaunch astra_launch astra_pro.launch
+
+

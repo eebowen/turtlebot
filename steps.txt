@@ -1,0 +1,13 @@
+roscore
+
+roslaunch turtlebot_bringup minimal.launch
+
+roslaunch turtlebot_dashboard turtlebot_dashboard.launch
+
+roslaunch astra_launch astra_pro.launch
+
+rosrun image_view image_view image:=/camera/rgb/image_raw
+
+roslaunch turtlebot_rviz_launchers view_robot.launch
+
+
