@@ -198,8 +198,8 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(turtlebot_follower src/turtlebot_follower.cpp)
-target_link_libraries(turtlebot_follower ${catkin_LIBRARIES})
-add_dependencies(turtlebot_follower beginner_tutorials_generate_messages_cpp)
+#add_executable(turtlebot_follower src/turtlebot_follower.cpp)
+#target_link_libraries(turtlebot_follower ${catkin_LIBRARIES})
+#add_dependencies(turtlebot_follower beginner_tutorials_generate_messages_cpp)
 
 
