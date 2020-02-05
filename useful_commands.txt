@@ -1,0 +1,8 @@
+1. create ros package
+catkin_create_pkg follower_bb std_msgs rospy roscpp
+
+2.source the environment setup files
+/opt/ros/indigo/setup.sh
+
+
+

@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/bowen/turtlebot/turtlebot_ws/install
+
+Name: talker_tutorial
+Description: Description of talker_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/turtlebot/bowen/turtlebot/turtlebot_ws/install/lib 
+Requires: 

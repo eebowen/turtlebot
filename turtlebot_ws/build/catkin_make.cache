@@ -1,0 +1,2 @@
+cmvision:follower_bb:ros_astra_camera:ros_astra_launch:talker_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/turtlebot/bowen/turtlebot/turtlebot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/turtlebot/bowen/turtlebot/turtlebot_ws/install -G Unix Makefiles

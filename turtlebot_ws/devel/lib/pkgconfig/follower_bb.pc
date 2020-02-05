@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/bowen/turtlebot/turtlebot_ws/devel
+
+Name: follower_bb
+Description: Description of follower_bb
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/turtlebot/bowen/turtlebot/turtlebot_ws/devel/lib 
+Requires: 
