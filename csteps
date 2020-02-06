@@ -1,3 +1,2 @@
 #!/bin/bash
-gnome-terminal --tab --title="step 5" -e "bash -c \"rosparam set /cmvision/color_file ~/turtlebot_ws/src/cmvision/colors.txt; rosrun cmvision cmvision image:=/camera/rgb/image_raw
-exec bash;\"";
+gnome-terminal --tab --title="step 5" -e "bash -c \"rosparam set /cmvision/color_file ~/turtlebot_ws/src/cmvision/colors.txt; rosrun cmvision cmvision image:=/camera/rgb/image_raw;exec bash;\"";
